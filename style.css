@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-image: linear-gradient(to right, #ff69b4, #d04894 );
+    padding: 40px 20px;
+    text-align: center;
+}
+
+@keyframes bounce {
+    0%,100%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-30px);
+    }
+    60%{
+        transform: translateY(-10px);
+    }
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.8rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+    animation: bounce 2s infinite;
+}
+
+header p {
+    color: white;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: white;
+    color: #d04894;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color:  #f8c8dc;
+}
+
+
+.search-section {
+    padding: 30px;
+}
+
+.search-section h2{
+    margin-top: 10px;
+    margin-bottom: -16px;
+}
+
+.search-form {
+    display: flex;
+    flex: wrap;
+    gap: 8px;
+    margin-top: 40px;
+    padding: 0;
+    justify-content: center;
+}
+
+.search-form select, input, button {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.search-form button {
+    border-radius: px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+}
+
+.features {
+    display: flex;
+    flex: wrap;
+    gap: 25px;
+    margin-top: 40px;
+    padding: 0;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.feature-box {
+    width: 240px;
+    background-color: #fff0f5;
+    padding: 30px 12px;
+    margin-bottom: 40px;
+    border-radius: 12px;
+}
+
+.feature-box p {
+    margin: 12px;
+    font-size: 14px;
+}
+
+.feature-box i {
+    color: #ff69b4;
+    margin: 12px;
+    font-size: 32px;
+}
+.feature-box h3 {
+    padding: 8px 20px;
+    font-size: 18px;
+}
+
+.cta {
+    background-color: #f8c8dc;
+    padding: 40px;
+}
+
+.cta h2 {
+    margin-bottom: 20px;
+}
+
+.cta p {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.cta .btn {
+    margin-bottom: 20px;
+}
+
+footer {
+    color: white;
+    background-color: #ff69b4;
+    padding: 12px 12px;
+    font-size: 14px;
+}
